@@ -1,0 +1,3 @@
+[submodule "tmux-mem-cpu-load"]
+	path = tmux-mem-cpu-load
+	url = https://github.com/ifTNT/tmux-mem-cpu-noload.git

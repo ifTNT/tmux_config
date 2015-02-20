@@ -1,0 +1,10 @@
+#!/bin/bash
+
+Percent=$(echo $(cat /sys/class/power_supply/BAT1/energy_now)/$(cat /sys/class/power_supply/BAT1/energy_full)*100 | bc -l | cut -d '.' -f 1)
+if [ "$Precent" -lt 40 ];then
+    echo -n \#[bg=colour52
+else
+    echo -n \#[bg=\#73a000
+fi
+echo -n ,fg=\#ffffff]
+echo -ne " $Percent% "
