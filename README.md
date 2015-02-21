@@ -1,11 +1,10 @@
-The config file of my tmux and vim  
+The config file of my tmux
 
 Author: `ifTNT`  
 License: `MIT`
 
 ###Requirement
 * tmux = 1.9
-* vim
 * tmux-mem-cpu-load
   * cmake
 * powerline
@@ -16,4 +15,4 @@ License: `MIT`
 3. $ make
 4. \# make install
 5. $ cp ../battery /usr/local/bin/
-6. copy the configuration of tmux and vim to your home
+6. copy the configuration of tmux to your home
